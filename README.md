@@ -1,3 +1,3 @@
 # Dasar-dasar-HTML
 
-ini adalah file yang berisi repo yang berisi tentang dasar dasar dari HTML. Jadi untuk yang sudah sepuh skip aja
+Ini adalah repo yang berisi file-file dasar-dasar HTML. Untuk sepuh skip aja :)
