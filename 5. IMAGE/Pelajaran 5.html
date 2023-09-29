@@ -1,0 +1,49 @@
+<!-- memasukkan gambar kedalam web mengunakan <img src="lokasi gambar"> -->
+<!-- lokasi gambar bisa internal (dalam file) atau eksternal (diinternet)
+     tetapi eksternal tidak disarankan karena bisa copyright -->
+
+<!-- ATRIBUT IMG:
+    1. src
+    2. alt (ketika gambar rusak maka teks alt yabg tampil) 
+    3. title (ketika kursor di gambar, maka teks title terlihat)
+    4. width untuk lebar gambar (satuan: px dan %)
+    5. height untuk tinggi gambar (satuan: px dan %)-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tentang image</title>
+    </head>
+</html>
+<body>
+    
+    <!-- CONTOH ALT -->
+    <h1>contoh alt</h1>
+    <p>dibawah ini adalah gambar yang rusak</p>
+    <img src="html.pg" alt="html rusak">
+    <hr>
+
+    <!-- CONTOH PENGGUNAAN TITLE -->
+    <h1>contoh title</h1>
+    <h4>Instruksi: arahkan kursor ke gambar</h4>
+    <p>without title</p>
+    <img src="html.png">
+    <p>with title</p>
+    <img src="html.png" title="logo html">
+    <hr>
+
+    <h1>kalau width dan height pastilah dah tau</h1>
+    <hr>
+
+    <!-- MEMASUKKAN LINK KEDALAM GAMBAR -->
+    <h1>link didalam gambar</h1>
+    <p>klik gambar dibawah ini untuk menuju ke suatu halaman</p>
+    <a href="imglink.html">
+        <img src="html.png" title="menuju halaman 3" width="5%">
+    </a>
+    <hr>
+    <br>
+    <br>
+    <h1>END</h1>
+
+</body>
