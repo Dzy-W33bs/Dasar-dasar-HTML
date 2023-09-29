@@ -1,0 +1,372 @@
+<!-- JENIS JENIS tabel -->
+
+<!-- 1.TABEL SIMPEL -->
+<!-- <table>
+    <tr> 
+        <td>baris</td>
+    </tr>
+    <tr>
+        <td>kolom</td>
+    </tr>
+</table> -->
+
+<!-- 2. TABEL KOMPLEKS -->
+<!-- <table>
+    <thead>
+        <tr>
+        <th> kepala table 1</th>
+        <th> kepala tabel 2 </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td> isi tabel </td>
+        <td> isi tabel </td>
+        </tr>
+    </tbody> 
+</table> -->
+
+<!-- ATRIBUT ATRIBUT TABEL  <table atribut></table>
+1. border -> menambahkan garis cell
+2. cellspacing -> menambahkanjarak diantara cell
+3. cellpadding -> memberi luas pada sel -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tentang tabel</title>
+    </head>
+    <body>
+        
+        <!-- ------------------------------------------------------------------------------------------- -->
+        <h1>macam macam tabel</h1>
+
+        <p>tabel tanpa border</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>JENIS KELAMIN</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>DZAKY</td>
+                        <td>PRIA</td>
+                    </tr>
+                    <tr>
+                        <td>KUROME</td>
+                        <td>WANITA</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+
+        <p>tabel dengan thead atas dan samping</p>
+        <table border="1" cellspacing="0">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>bilangan</th>
+                    <th>bilangan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>bilangan</th>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>bilangan</th>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <h3>liat kodingan untuk lengkapnya</h3>
+        <hr>
+
+    <!-- ============================================================================================================= -->
+    
+    <h1>BORDER</h1>
+    
+    <p>tabel dengan border = 1 </p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>tabel dengan border = 5 </p>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>tabel dengan border = 10 </p>
+    <table border="10">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><i>ANALISIS SENDIRI PERBEDAANNYA WIBU</i></p>
+    <hr>
+    
+    <!-- ============================================================================================================= -->
+
+    <h1>cellspacing</h1>
+
+    <p>semua tabel disini bordernya = 1</p>
+
+    <br>
+
+    <p>tabel dengan cellspacing = 0</p>
+    <table cellspacing="0" border="1">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>tabel dengan cellspacing = 5</p>
+    <table cellspacing="5" border="1">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>tabel dengan cellspacing = 10 </p>
+    <table cellspacing="10" border="1">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><u>ANALISIS SENDIRI PERBEDAANNYA WIBUUE</u></p>
+    <hr>
+
+    <!-- ============================================================================================================================= -->
+
+    <h1>cellpedding</h1>
+
+    <p>semua tabel disini memeiliki border = 1 dan cellspacing = 0</p>
+
+    <p>tabel dengan cellpadding = 0 </p>
+    <table cellspacing="0" border="1" cellpadding="0">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>tabel dengan cellpadding = 5 </p>
+    <table cellspacing="0" border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>tabel dengan cellpadding = 10</p>
+    <table cellspacing="0" border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>ras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dzaky</td>
+                <td>17</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Mehiru</td>
+                <td>16</td>
+                <td>human</td>
+            </tr>
+            <tr>
+                <td>Ryuu</td>
+                <td>21</td>
+                <td>elf</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><b>ANALISIS SENDIRI PERBEDAANNYA WEEBOO</b></p>
+    <hr>
+
+    <h2>WULAN TANPA KEKASIH, CUKUP SEKIAN DAN TERIMA KASIH</h2>
+
+
+
+
+    </body>
+</html>
