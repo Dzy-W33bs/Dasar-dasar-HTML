@@ -1,0 +1,234 @@
+<!-- FORM digunakan untuk mengelola data dari input yang dilakukan oleh user -->
+
+<!--<form>
+    .....
+    elemen form
+    .....
+    </form> -->
+
+<!-- ELEMEN ELEMEN FORM
+1. input 
+2. textarea 
+3. select 
+4. button 
+5. label  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tentang form</title>
+    </head>
+    <body>
+        
+<!-- =============================================================================================================================== -->
+
+    <h1>input</h1>
+
+    <p>
+        input memiliki beberapa atribut seperti: <br>
+        1. text <br>
+        2. password <br>
+        3. radio <br>
+        4. checkbox 
+    </p>
+    
+
+    <h3>1. TEXT</h3>
+    <p>contoh text</p>
+    <form>
+        <label for="namamu">namamu : </label>
+        <input type="text" id="namamu">
+    </form>
+
+    
+
+    <h3>2. PASSWORD</h3>
+    <p>contoh password</p>
+    <form>
+        <label for="pass">password: </label>
+        <input type="password" id="pass">
+    </form>
+
+    
+
+    <h3>3. RADIO</h3>
+    <p>contoh penggunaaan radio button</p>
+    <form>
+       <input type="radio" id="pria" name="jenis kelamin"><label for="pria">Pria</label>
+       <input type="radio" id="wanita" name="jenis kelamin"><label for="wanita">Wanita</label>
+    </form>
+
+    
+
+    <h3>4. CHECKBOX</h3>
+    <p>contoh penggunaan chechbox</p>
+    <form>
+        <p>Waifu</p>
+        <label for="kurome">KUROME</label> <input type="checkbox" id="kurome">
+        <label for="megumin">MEGUMIN</label> <input type="checkbox" id="megumin">
+        <label for="Miku">Miku Nakakno</label> <input type="checkbox" id="Miku"> <br>
+        <button type="submit">KIRIM!</button>
+    <form>
+    <hr>
+
+<!-- ================================================================================================================================================= -->
+
+    <h1>textarea</h1>
+
+    <p>text area mirip seperti atribut text, tetapi lebih kecil</p>
+    <br>
+    <p>contoh text area</p>
+    <form>
+        <textarea></textarea> <br>
+        <button type="submit">KIRIM!</button>
+    </form>
+    <hr>
+
+<!-- ============================================================================================================== -->
+
+    <h1>select</h1>
+
+    <p>contoh select</p>
+
+    <form>
+        <select>
+            <option>LOLI</option>
+            <option>MILF</option>
+            <option>ONEE-SAN</option>
+            <button type="submit"> KIRIM! </button>
+        </select><br>
+    </form>
+    <hr>
+
+<!-- =========================================================================================================== -->
+
+    <h2>kita akan menggabungkan dan merapikan semuanya</h2>
+
+    <form>
+    <table border="1" cellspacing="0">
+
+        <tr> 
+            <td><label for="nama">username : </label></td>
+            <td><input type="text" id="nama"></td>
+        </tr>
+        <tr>
+            <td><label for="pass">password</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="radio" id="waifu" name="pasangan"><label for="waifu">waifu</label>
+                <input type="radio" id="husbu" name="pasangan"><label for="husbu">husbu</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="action"><label for="action">action</label>
+                <input type="checkbox" id="romance"><label for="romance">romance</label>
+                <input type="checkbox" id="fantasy"><label for="fantasy">fantasy</label>
+            </td>
+
+        <tr>
+            <td><label for="deskripsi">Deskripsi pasangan : </label></td>
+            <td><textarea id="deskripsi"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="waifu">daftar waifu</label></td>
+            <td><select id="waifu">
+                <option>Kurome</option>
+                <option>Tsukasa</option>
+                <option>Megumin</option>
+                <option>Lucy</option>
+                <option>Tomori</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="husbu">daftar husbu</label></td>
+            <td><select id="husbu">
+                <option>yanto 1</option>
+                <option>yanto 2</option>
+                <option>yanto 3</option>
+                <option>yanto 4</option>
+                <option>yanto 5</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="submit">KIRIM HALUMU BOSKU!</button></td>
+        </tr>
+
+    </table>
+    </form>
+
+    <br>
+
+    <p>coba kita hilangkan bordernya</p>
+
+    <form>
+        <table border="0">
+    
+            <tr> 
+                <td><label for="nama">username : </label></td>
+                <td><input type="text" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" id="waifu" name="pasangan"><label for="waifu">waifu</label>
+                    <input type="radio" id="husbu" name="pasangan"><label for="husbu">husbu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="action"><label for="action">action</label>
+                    <input type="checkbox" id="romance"><label for="romance">romance</label>
+                    <input type="checkbox" id="fantasy"><label for="fantasy">fantasy</label>
+                </td>
+    
+            <tr>
+                <td><label for="deskripsi">Deskripsi pasangan : </label></td>
+                <td><textarea id="deskripsi"></textarea></td>
+            </tr>
+    
+            <tr>
+                <td><label for="waifu">daftar waifu</label></td>
+                <td><select id="waifu">
+                    <option>Kurome</option>
+                    <option>Tsukasa</option>
+                    <option>Megumin</option>
+                    <option>Lucy</option>
+                    <option>Tomori</option>
+                </select></td>
+            </tr>
+             <tr>
+                <td><label for="husbu">daftar husbu</label></td>
+                 <td><select id="husbu">
+                    <option>yanto 1</option>
+                    <option>yanto 2</option>
+                    <option>yanto 3</option>
+                    <option>yanto 4</option>
+                    <option>yanto 5</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">KIRIM HALUMU BOSKU!</button></td>
+            </tr>
+    
+        </table>
+        </form>
+        
+
+<!-- ===================================================================================================================================== -->
+
+        <h4>SEKIAN CUI!</h4>
+
+
+
+
+
+
+    </body>
+</html>

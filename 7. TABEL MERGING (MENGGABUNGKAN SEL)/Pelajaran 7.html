@@ -1,0 +1,107 @@
+<!-- PENJELASAN SINGKAT
+
+TABEL MERGING  -> MENYATUKAN SEL DI tabel
+
+colspan = untuk menggabung 2 kolom atau lebh
+rowspan = untuk menggabungkan 2 baris atau lebih -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tentang table merging</title>
+    </head>
+    <body>
+
+<!-- ============================================================================================================================== -->
+
+        <h1>PENJELASAN SINGKAT:</h1>
+        <h3>colspan -> menggabungkan kolom</h3>
+        <h3>rowspan -> menggabungkan baris</h3>
+        <hr>
+
+<!-- ========================================================================================================================================== -->
+
+        <h1>colspan</h1>
+
+        <p>tengok baik baik tabel ini</p>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td colspan="2">BILANGAN</td>
+                <td>bilangan</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>bilangan</td>
+                <td>bilangan</td>
+                <td>bilangan</td>
+                
+            </tr>
+        </table>
+        <p>bisa kita lihat kolom dibaris pertama ada yang bergabung</p>
+        <hr>
+
+<!-- =================================================================================================================================== -->
+
+        <h1>rowspan</h1>
+        <p>tengok baik baik tabel dibawah</p>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td rowspan="2">nama</td>
+                <td>nama</td>
+                <td>nama</td>
+            </tr>
+            <tr>
+                <td>nama</td>
+                <td>nama</td>
+            </tr>
+            <tr>
+                <td>nama</td>
+                <td>nama</td>
+                <td>nama</td>
+            </tr>
+        </table>
+        <p>bisa kita lihat barris 1 dan 2 pada kolom 1 bergabung</p>
+        <hr>
+
+<!-- ================================================================================================================================================= -->
+
+        <h1>coba kita gabung colspan dan rowspan</h1>
+
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td colspan="2" rowspan="2">aku nomor 1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <hr>
+
+        <h2>WILDAN TANPA KEKASIH, CUKUP SEKIAN DAN TERIMA KASIH</h2>
+
+        <p>catatan untukmu manis: <b>liat syntaxnya jika ingin tambah paham :*</b></p>
+
+
+
+
+    </body>
+</html>
