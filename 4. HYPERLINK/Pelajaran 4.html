@@ -1,0 +1,88 @@
+<!-- link pada html menggunakan tag <a href=""></a> -->
+
+<!-- <a href="DISINI LETAK LINKNYA"></a> -->
+
+<!-- didalam href bisa diisi link: external link (link diluar web kita),
+    internal link (link didalam web kita), relativ link, page anchor -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tentang link</title>
+  </head>
+  <body>
+    <!-- PENGGUNAAN EXTERNAL LINK (PAKE http://.......) -->
+    <h2>contoh penggunaan external link</h2>
+    <p>
+      Klik <a href="http://www.google.com">disini</a> untuk menuju halaman
+      google
+    </p>
+    <hr />
+
+    <!-- PENGGUNAAN INTERNAL LINK (Pake blabla.html) -->
+    <!-- internal link artinya file htmlnya berada di dalam file yang sama -->
+    <h2>contoh penggunaan internal link</h2>
+    <p>
+      Tap <b><a href="halaman2.html">disini</a></b> untuk menuju ke halaman 2
+    </p>
+    <hr />
+
+    <!-- PENGGUNAAN RELATIVE URL (namafile/product.html)-->
+    <!-- (../namafile/product.htmk) naik satu file kemudian menuju file anak -->
+    <!-- (../product.html) untuk kembali ke file induk -->
+    <!-- relative url artinya file htmlnya berada di file induk yang sama, tetapi -->
+    <!-- kemudian berpisah dalam file anak -->
+    <h2>contoh penggunaan relative url</h2>
+    <p>
+      tekan <a href="lain/halaman3.html">ini</a> untuk menuju ke halaman 3 yang
+      berada di file lain
+    </p>
+    <hr />
+
+    <!-- PENGGUNAAN PAGE ANCHOUR -->
+    <!-- page anchour adalah bagian tertentu dalam suatu halaman -->
+    <h2>contoh penggunaan page anchour</h2>
+
+    <ul>
+      <li><a href="#bagian1">menuju bagian 1</a></li>
+      <li><a href="#bagian2">menuju bagian 2</a></li>
+      <li><a href="#bagian3">menuju bagian 3</a></li>
+      <li><a href="#newtab">menuju materi berikutnya</a></li>
+    </ul>
+
+    <h3 id="bagian1">bagian 1</h3>
+    <p>
+      wdwdnjdnjwdjwdwndj<br />nndjwndjwndjwndwjw<br />ndnwnjne3e<br />ijije2idwdi<br />ij2jei2jei2je<br />
+    </p>
+    <p>ajijdjwidjwidwj<br />jiwiwjeij<br />jnwnwjnwjn<br />jijeij2eij2e</p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h3 id="bagian2">bagian 2</h3>
+    <p>
+      wdwdnjdnjwdjwdwndj<br />nndjwndjwndjwndwjw<br />ndnwnjne3e<br />ijije2idwdi<br />ij2jei2jei2je<br />
+    </p>
+    <p>ajijdjwidjwidwj<br />jiwiwjeij<br />jnwnwjnwjn<br />jijeij2eij2e</p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h3 id="bagian3">bagian 3</h3>
+    <p>
+      wdwdnjdnjwdjwdwndj<br />nndjwndjwndjwndwjw<br />ndnwnjne3e<br />ijije2idwdi<br />ij2jei2jei2je<br />
+    </p>
+    <p>ajijdjwidjwidwj<br />jiwiwjeij<br />jnwnwjnwjn<br />jijeij2eij2e</p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <h5><a href="test page anchour.html">coba klik kalimat ini</a></h5>
+    <hr />
+
+    <!-- MEMBUKA LINK DI TAB BARU -->
+    <!-- caranya yaitu <a href="link" target="_blank"></a> -->
+    <h2 id="newtab">membuka link di tab baru</h2>
+    <p>
+      klik <a href="lain/halaman3.html" target="_blank">disini</a> untuk membuka
+      halaman 3 di tab baru
+    </p>
+    <hr />
+
+    <h1>PELAJARAN 4 SELESAI</h1>
+  </body>
+</html>
